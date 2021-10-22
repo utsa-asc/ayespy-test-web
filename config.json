@@ -1,0 +1,31 @@
+{
+  "gridUrl": "http://selenoid.lehgarza.family:4444/wd/hub",
+  "baseline": "./baseline",
+  "latest": "./latest",
+  "generatedDiffs": "./generatedDiffs",
+  "report": "./reports",
+  "scenarios": [
+    {
+      "url": "https://provost.utsa.edu/",
+      "label": "chrome",
+      "viewports": [
+        {
+          "height": 4800,
+          "width": 1024,
+          "label": "large"
+        },
+        {
+          "height": 4800,
+          "width": 768,
+          "label": "medium"
+        },
+        {
+          "height": 4800,
+          "width": 320,
+          "label": "small"
+        }
+      ],
+      "wait": 2000
+    }
+  ]
+}

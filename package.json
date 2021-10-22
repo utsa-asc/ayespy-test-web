@@ -1,0 +1,16 @@
+{
+  "name": "test-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ayespy snap --browser chrome --config config.json",
+    "baseline": "ayespy update-baseline --browser chrome --config config.json",
+    "compare": "ayespy compare --browser chrome --config config.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aye-spy": "^4.6.0"
+  }
+}
