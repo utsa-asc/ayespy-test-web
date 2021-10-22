@@ -1,5 +1,5 @@
 {
-  "gridUrl": "https://selenoid.lehgarza.family/wd/hub",
+  "gridUrl": "http://selenoid.lehgarza.family:4444/wd/hub",
   "baseline": "./baseline",
   "latest": "./latest",
   "generatedDiffs": "./generatedDiffs",
