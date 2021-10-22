@@ -1,5 +1,5 @@
 {
-  "gridUrl": "http://selenoid.lehgarza.family:4444/wd/hub",
+  "gridUrl": "https://selenoid.lehgarza.family/wd/hub",
   "baseline": "./baseline",
   "latest": "./latest",
   "generatedDiffs": "./generatedDiffs",
@@ -7,22 +7,42 @@
   "scenarios": [
     {
       "url": "https://provost.utsa.edu/",
-      "label": "chrome",
+      "label": "chrome-94",
       "viewports": [
         {
           "height": 4800,
+          "width": 2000,
+          "label": "xxxl-2000"
+        },
+        {
+          "height": 4800,
+          "width": 1400,
+          "label": "xxl-1400"
+        },
+        {
+          "height": 4800,
           "width": 1024,
-          "label": "large"
+          "label": "ipad-1024"
+        },
+        {
+          "height": 4800,
+          "width": 992,
+          "label": "lg-992"
         },
         {
           "height": 4800,
           "width": 768,
-          "label": "medium"
+          "label": "md-768"
+        },
+        {
+          "height": 4800,
+          "width": 576,
+          "label": "sm-576"
         },
         {
           "height": 4800,
           "width": 320,
-          "label": "small"
+          "label": "xs-320"
         }
       ],
       "wait": 2000
